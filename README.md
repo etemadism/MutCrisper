@@ -1,8 +1,8 @@
-# MutCrisper: a toolkit to design and verify sgRNA for incorporating single mutation
+# MutCrisper: A Toolkit for Optimized gRNA Design in Base Editing Technology
 
 You can run it on google colab: https://colab.research.google.com/github/etemadism/MutCrisper/blob/master/MutCrisper_Colab.ipynb 
 
-MutCrisper: A Toolkit for Optimized gRNA Design in Base Editing Technology
+
 This is a easy way to run MutCrisper in google colaboratory. The MutCrisper workflow, illustrated in Figure 1, is a comprehensive approach designed to enhance guide RNA (gRNA) design for precise base editing in genomic sequences. This workflow streamlines the process of selecting the most suitable gRNA sequences and predicting base editing outcomes.
 
 
