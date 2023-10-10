@@ -19,3 +19,53 @@ The operation of this toolkit hinges on two key inputs:
 
 The code checks if the extracted nucleotide is either "A" (adenine) or "C" (cytosine). If the nucleotide is either of these, it implies that the search should be performed on the "sense" strand, as these are the nucleotides typically found on the sense strand in DNA sequences. Otherwise, it is performed on the "antisense" strand. 
 
+
+
+
+
+# MutCrisper Google Colab Tutorial
+
+**Disclaimer:** This code is for educational purposes only. Use it at your own risk. The author of this code makes no warranties about the accuracy or suitability of this code for any purpose. By using this code, you agree to hold the author harmless from any damages that may arise from its use.
+
+## Step 1: Open the MutCrisper Google Colab Notebook
+
+Click [here](https://colab.research.google.com/github/etemadism/MutCrisper/blob/master/MutCrisper_Colab.ipynb) to open the MutCrisper Google Colab notebook in your web browser.
+
+## Step 2: Install Required Packages
+
+1. In the Colab notebook, navigate to the "2 Install required packages" section.
+2. Click on the play button next to the code cell to install the required Python packages.
+
+## Step 3: Enter DNA Sequence and Position
+
+1. Scroll down to the "2 Inputs" section.
+2. Enter your DNA sequence and the position of the nucleotide of interest in the provided fields.
+
+## Step 4: Run MutCrisper
+
+1. Scroll down to the "3 Run MutCrisper" section.
+2. Click the play button next to the code cell labeled "Run MutCrisper."
+
+The results of MutCrisper, including sgRNA sequences and suggested conditions, will be displayed.
+
+## Step 5: Restriction Enzymes (if any)
+
+1. Scroll down to the "4 Restriction enzymes(if any) for RFLP" section.
+2. View the wild type and mutant type sequences.
+3. Observe the enzymes that will potentially cut the wild or mutant sequence.
+
+## Step 6: ARMS PCR Primer Design Parameters
+
+1. Scroll down to the "5 Please specify the parameters for ARMS PCR primer design" section.
+2. Specify the parameters for ARMS PCR primer design.
+3. Click the play button next to the code cell to proceed.
+
+## Step 7: Interpret the Results
+
+Review the results, including sgRNA sequences, restriction enzymes information, and ARMS PCR primer design parameters.
+
+Congratulations! You have successfully run MutCrisper in Google Colab.
+
+Feel free to explore and modify the notebook as needed for your research or educational purposes.
+
+
