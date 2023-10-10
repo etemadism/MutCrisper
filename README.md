@@ -12,7 +12,10 @@ This figure illustrates the step-by-step MutCrisper workflow for optimizing guid
 
 
 The operation of this toolkit hinges on two key inputs:
+
 **Sequence**: Users are required to provide a DNA sequence of interest. This sequence should consist of valid nucleotide characters, namely adenine (A), cytosine (C), thymine (T), and guanine (G). The sequence serves as the substrate for the subsequent analysis. 
+
 **Nucleotide Position (position)**: This denotes the position within the provided sequence where users are interested in introducing modifications. The position parameter is crucial as it guides the tool in pinpointing the precise location for genome editing.
+
 The code checks if the extracted nucleotide is either "A" (adenine) or "C" (cytosine). If the nucleotide is either of these, it implies that the search should be performed on the "sense" strand, as these are the nucleotides typically found on the sense strand in DNA sequences. Otherwise, it is performed on the "antisense" strand. 
 
